@@ -1,0 +1,118 @@
+body {
+    background-color: #676767;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.todolist {
+    text-align: center;
+    margin-top: 80px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1.1rem; 
+    font-weight: bold;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+.container {
+    width: 80%; 
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2e2e2e; 
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.add-btn {
+    background-color: #f69330;
+    margin: 10px;
+    width: 80px;
+    height: 43px;
+}
+
+.add-btn:hover {
+    background-color: #6b6bb0;
+}
+
+.delete-btn {
+    background-color: #f81515; 
+}
+
+.delete-btn:hover {
+    background-color: #792525; 
+}
+
+.move-btn {
+    background-color: #73cad2; 
+}
+
+.move-btn:hover {
+    background-color: #5ab6bd; 
+}
+
+input[type="text"] {
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 2px solid #afacac;
+    border-radius: 6px;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    width: 30%; 
+    box-sizing: border-box;
+}
+
+ol {
+    padding: 0;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+li {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #e5e9e8; 
+    border: 1px solid #d8d8d8;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-bottom: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+    flex: 1;
+    margin-right: 10px; 
+}
+
+.delete-btn, .move-btn {
+    padding: 8px 13px;
+    font-size: 1.1rem; 
+    margin-left: 10px;
+}
